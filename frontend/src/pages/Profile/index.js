@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import logoImg from '../../assets/logo.svg';
-import {FiPower} from 'react-icons/fi';
+import {FiPower, FiTrash2} from 'react-icons/fi';
 
 import './styles.css';
 
@@ -16,6 +16,65 @@ export default function Profile() {
             </header>
 
             <h1>Casos cadastrados</h1>
+
+            <ul>
+                <li>
+                    <strong>Caso:</strong>
+                    <p>Caso teste</p>
+
+                    <strong>Descrição:</strong>
+                    <p>Caso teste</p>
+
+                    <strong>Valor:</strong>
+                    <p>R$ 180,00</p>
+
+                    <button type="button">
+                        <FiTrash2 size={20} color="#a8a8b3" />
+                    </button>
+                </li>
+                <li>
+                    <strong>Caso:</strong>
+                    <p>Caso teste</p>
+
+                    <strong>Descrição:</strong>
+                    <p>Caso teste</p>
+
+                    <strong>Valor:</strong>
+                    <p>R$ 180,00</p>
+
+                    <button type="button">
+                        <FiTrash2 size={20} color="#a8a8b3" />
+                    </button>
+                </li>
+                <li>
+                    <strong>Caso:</strong>
+                    <p>Caso teste</p>
+
+                    <strong>Descrição:</strong>
+                    <p>Caso teste</p>
+
+                    <strong>Valor:</strong>
+                    <p>R$ 180,00</p>
+
+                    <button type="button">
+                        <FiTrash2 size={20} color="#a8a8b3" />
+                    </button>
+                </li>
+                <li>
+                    <strong>Caso:</strong>
+                    <p>Caso teste</p>
+
+                    <strong>Descrição:</strong>
+                    <p>Caso teste</p>
+
+                    <strong>Valor:</strong>
+                    <p>R$ 180,00</p>
+
+                    <button type="button">
+                        <FiTrash2 size={20} color="#a8a8b3" />
+                    </button>
+                </li>
+            </ul>
         </div>
     );
 }
